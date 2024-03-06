@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:aiassistant/Resources/Private/Language/locallang_db.xlf" date="2024-02-29T22:07:21Z" product-name="aiassistant">
+	<file source-language="en" datatype="plaintext" original="EXT:aiassistant/Resources/Private/Language/locallang_db.xlf" date="2024-03-04T13:39:57Z" product-name="aiassistant">
 		<header/>
 		<body>
 			<trans-unit id="tx_aiassistant_domain_model_message" resname="tx_aiassistant_domain_model_message">
@@ -50,6 +50,48 @@
 			</trans-unit>
 			<trans-unit id="tx_aiassistant_domain_model_message.file_id.description" resname="tx_aiassistant_domain_model_message.file_id.description">
 				<source>File Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.assistant" resname="tx_aiassistant_domain_model_message.assistant">
+				<source>Assistant</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.assistant.description" resname="tx_aiassistant_domain_model_message.assistant.description">
+				<source>The Assistant Who Has Sent This Message</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant" resname="tx_aiassistant_domain_model_assistant">
+				<source>Assistant</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant.description" resname="tx_aiassistant_domain_model_assistant.description">
+				<source>Assistant</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant.assistant_id" resname="tx_aiassistant_domain_model_assistant.assistant_id">
+				<source>Assistant Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant.assistant_id.description" resname="tx_aiassistant_domain_model_assistant.assistant_id.description">
+				<source>Assistant Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant.files" resname="tx_aiassistant_domain_model_assistant.files">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_assistant.files.description" resname="tx_aiassistant_domain_model_assistant.files.description">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files" resname="tx_aiassistant_domain_model_files">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files.description" resname="tx_aiassistant_domain_model_files.description">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files.file_id" resname="tx_aiassistant_domain_model_files.file_id">
+				<source>File Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files.file_id.description" resname="tx_aiassistant_domain_model_files.file_id.description">
+				<source>File Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files.assistant" resname="tx_aiassistant_domain_model_files.assistant">
+				<source>Assistant</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_files.assistant.description" resname="tx_aiassistant_domain_model_files.assistant.description">
+				<source>The Assistant To Whom This File Has Been Given</source>
 			</trans-unit>
 			<trans-unit id="tx_aiassistant_chatform.name" resname="tx_aiassistant_chatform.name">
 				<source>Assistant Chat Form</source>

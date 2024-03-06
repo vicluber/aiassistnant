@@ -25,14 +25,14 @@ class Message extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      *
      * @var string
      */
-    protected $userPrompt = null;
+    protected $userPrompt = '';
 
     /**
      * assistantAnswer
      *
      * @var string
      */
-    protected $assistantAnswer = null;
+    protected $assistantAnswer = '';
 
     /**
      * fileCitation
@@ -70,9 +70,16 @@ class Message extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $fileId = '';
 
     /**
+     * The assistant who has sent this message
+     *
+     * @var \Effective\Aiassistant\Domain\Model\Assistant
+     */
+    protected $assistant = null;
+
+    /**
      * Returns the userPrompt
      *
-     * @return string userPrompt
+     * @return string
      */
     public function getUserPrompt()
     {
@@ -93,7 +100,7 @@ class Message extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the assistantAnswer
      *
-     * @return string assistantAnswer
+     * @return string
      */
     public function getAssistantAnswer()
     {
@@ -214,5 +221,26 @@ class Message extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setFileId(string $fileId)
     {
         $this->fileId = $fileId;
+    }
+
+    /**
+     * Returns the assistant
+     *
+     * @return \Effective\Aiassistant\Domain\Model\Assistant
+     */
+    public function getAssistant()
+    {
+        return $this->assistant;
+    }
+
+    /**
+     * Sets the assistant
+     *
+     * @param \Effective\Aiassistant\Domain\Model\Assistant $assistant
+     * @return void
+     */
+    public function setAssistant(\Effective\Aiassistant\Domain\Model\Assistant $assistant)
+    {
+        $this->assistant = $assistant;
     }
 }

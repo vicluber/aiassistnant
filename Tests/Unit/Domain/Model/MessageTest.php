@@ -181,4 +181,26 @@ class MessageTest extends UnitTestCase
 
         self::assertEquals('Conceived at T3CON10', $this->subject->_get('fileId'));
     }
+
+    /**
+     * @test
+     */
+    public function getAssistantReturnsInitialValueForAssistant(): void
+    {
+        self::assertEquals(
+            null,
+            $this->subject->getAssistant()
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function setAssistantForAssistantSetsAssistant(): void
+    {
+        $assistantFixture = new \Effective\Aiassistant\Domain\Model\Assistant();
+        $this->subject->setAssistant($assistantFixture);
+
+        self::assertEquals($assistantFixture, $this->subject->_get('assistant'));
+    }
 }

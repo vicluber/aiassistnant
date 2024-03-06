@@ -15,7 +15,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 /**
  * The repository for Assistants
  */
-class MessageRepository extends Repository
+class AssistantRepository extends Repository
 {
     // You can implement custom methods here if needed in the future
 }

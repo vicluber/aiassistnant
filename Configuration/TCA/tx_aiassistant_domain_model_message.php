@@ -20,7 +20,7 @@ return [
         'iconfile' => 'EXT:aiassistant/Resources/Public/Icons/tx_aiassistant_domain_model_message.gif'
     ],
     'types' => [
-        '1' => ['showitem' => 'user_prompt, assistant_answer, file_citation, thread, prompt_tokens, completion_tokens, file_id, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
+        '1' => ['showitem' => 'user_prompt, assistant_answer, file_citation, thread, prompt_tokens, completion_tokens, file_id, assistant, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
     ],
     'columns' => [
         'sys_language_uid' => [
@@ -173,6 +173,20 @@ return [
                 'eval' => 'trim',
                 'default' => ''
             ],
+        ],
+        'assistant' => [
+            'exclude' => true,
+            'label' => 'LLL:EXT:aiassistant/Resources/Private/Language/locallang_db.xlf:tx_aiassistant_domain_model_message.assistant',
+            'description' => 'LLL:EXT:aiassistant/Resources/Private/Language/locallang_db.xlf:tx_aiassistant_domain_model_message.assistant.description',
+            'config' => [
+                'type' => 'select',
+                'renderType' => 'selectSingle',
+                'foreign_table' => 'tx_aiassistant_domain_model_assistant',
+                'default' => 0,
+                'minitems' => 0,
+                'maxitems' => 1,
+            ],
+            
         ],
     
     ],

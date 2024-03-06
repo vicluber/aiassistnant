@@ -54,3 +54,18 @@ plugin.tx_aiassistant._CSS_DEFAULT_STYLE (
         color: green;
     }
 )
+
+# Module configuration
+module.tx_aiassistant_site_aiassistantcreateaiassistant {
+    persistence {
+        storagePid = {$module.tx_aiassistant_createaiassistant.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:aiassistant/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_aiassistant_createaiassistant.view.templateRootPath}
+        partialRootPaths.0 = EXT:aiassistant/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_aiassistant_createaiassistant.view.partialRootPath}
+        layoutRootPaths.0 = EXT:aiassistant/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_aiassistant_createaiassistant.view.layoutRootPath}
+    }
+}

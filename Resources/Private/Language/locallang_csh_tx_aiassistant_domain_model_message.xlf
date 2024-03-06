@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:aiassistant/Resources/Private/Language/locallang_csh_tx_aiassistant_domain_model_message.xlf" date="2024-02-29T22:07:21Z" product-name="aiassistant">
+	<file source-language="en" datatype="plaintext" original="EXT:aiassistant/Resources/Private/Language/locallang_csh_tx_aiassistant_domain_model_message.xlf" date="2024-03-04T13:39:57Z" product-name="aiassistant">
 		<header/>
 		<body>
 			<trans-unit id="user_prompt.description" resname="user_prompt.description">
@@ -23,6 +23,9 @@
 			</trans-unit>
 			<trans-unit id="file_id.description" resname="file_id.description">
 				<source>fileId</source>
+			</trans-unit>
+			<trans-unit id="assistant.description" resname="assistant.description">
+				<source>The assistant who has sent this message</source>
 			</trans-unit>
 		</body>
 	</file>
