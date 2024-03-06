@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:aiassistant/Resources/Private/Language/locallang_db.xlf" date="2024-02-29T22:07:21Z" product-name="aiassistant">
+		<header/>
+		<body>
+			<trans-unit id="tx_aiassistant_domain_model_message" resname="tx_aiassistant_domain_model_message">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.description" resname="tx_aiassistant_domain_model_message.description">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.user_prompt" resname="tx_aiassistant_domain_model_message.user_prompt">
+				<source>User Prompt</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.user_prompt.description" resname="tx_aiassistant_domain_model_message.user_prompt.description">
+				<source>User Prompt</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.assistant_answer" resname="tx_aiassistant_domain_model_message.assistant_answer">
+				<source>Assistant Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.assistant_answer.description" resname="tx_aiassistant_domain_model_message.assistant_answer.description">
+				<source>Assistant Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.file_citation" resname="tx_aiassistant_domain_model_message.file_citation">
+				<source>File Citation</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.file_citation.description" resname="tx_aiassistant_domain_model_message.file_citation.description">
+				<source>File Citation</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.thread" resname="tx_aiassistant_domain_model_message.thread">
+				<source>Thread</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.thread.description" resname="tx_aiassistant_domain_model_message.thread.description">
+				<source>Thread</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.prompt_tokens" resname="tx_aiassistant_domain_model_message.prompt_tokens">
+				<source>Prompt Tokens</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.prompt_tokens.description" resname="tx_aiassistant_domain_model_message.prompt_tokens.description">
+				<source>Prompt Tokens</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.completion_tokens" resname="tx_aiassistant_domain_model_message.completion_tokens">
+				<source>Completion Tokens</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.completion_tokens.description" resname="tx_aiassistant_domain_model_message.completion_tokens.description">
+				<source>Completion Tokens</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.file_id" resname="tx_aiassistant_domain_model_message.file_id">
+				<source>File Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_domain_model_message.file_id.description" resname="tx_aiassistant_domain_model_message.file_id.description">
+				<source>File Id</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_chatform.name" resname="tx_aiassistant_chatform.name">
+				<source>Assistant Chat Form</source>
+			</trans-unit>
+			<trans-unit id="tx_aiassistant_chatform.description" resname="tx_aiassistant_chatform.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
